@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-kilted/turtle_dancer/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

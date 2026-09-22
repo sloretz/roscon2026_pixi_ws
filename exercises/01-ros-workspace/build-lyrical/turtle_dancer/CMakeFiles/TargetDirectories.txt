@@ -1,0 +1,10 @@
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/uninstall.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/turtle_dancer_uninstall.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/dance.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/test.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/edit_cache.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/rebuild_cache.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/list_install_components.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/install.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/install/local.dir
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/build-lyrical/turtle_dancer/CMakeFiles/install/strip.dir

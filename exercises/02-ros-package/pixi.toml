@@ -18,21 +18,30 @@ platforms = [
   { platform = "osx-arm64", macos = "14.0" },
   "win-64",
 ]
+preview = ["pixi-build"]
+
+[workspace.dependencies]
+pixi-build-ros = ">=0.7.5"
 
 [dependencies]
 ros-lyrical-ros-base = ">=0.11"
 ros-lyrical-turtlesim = ">=1.8"
-ros-dev-tools = ">=1.0"
+ros-lyrical-turtle-dancer = {path = "src/turtle_dancer/package.xml"}
+ros-lyrical-turtle-choreographer = {path = "src/turtle_choreographer/package.xml"}
+
+# pixi add --path src/downloaded_ros_packages (needs per package pixi.toml, nothing that adds package.xml stuff here)
+#  Maybe could Pr a feature request for --backend pixi-build-ros
+# Rueben Arts has separate tool: pixi-ros init ( can reinitialize if src/ changes - adds it to "dev dependencies")
 
 [tasks]
 sim = "ros2 run turtlesim turtlesim_node"
 teleop = "ros2 run turtlesim turtle_teleop_key"
 topics = "ros2 topic list"
-build = "colcon build"
-dance = { cmd = "ros2 run turtle_dancer dance", depends-on = ["build"] }
+dance = { cmd = "ros2 run turtle_dancer dance"}
+choreograph = "ros2 run turtle_choreographer choreograph"
 
-[target.unix.activation]
-scripts = ["install/local_setup.sh"]
+# [target.unix.activation]
+# scripts = ["install/local_setup.sh"]
 
-[target.win-64.activation]
-scripts = ["install/local_setup.bat"]
+# [target.win-64.activation]
+# scripts = ["install/local_setup.bat"]

@@ -1,0 +1,42 @@
+[workspace]
+authors = ["Shane Loretz <sloretz@intrinsic.ai>"]
+channels = ["https://prefix.dev/robostack-lyrical", "conda-forge"]
+name = "01-ros-workspace"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[environments.kilted]
+channels = ["https://prefix.dev/robostack-kilted", "conda-forge"]
+features = ["commontasks", "commondeps"]
+activation = {scripts = ["install-kilted/setup.bash"]}
+
+[environments.lyrical]
+channels = ["https://prefix.dev/robostack-lyrical", "conda-forge"]
+features = ["commontasks", "commondeps"]
+activation = {scripts = ["install-lyrical/setup.bash"]}
+
+[environments.default.activation]
+scripts = ["install-${PIXI_ENVIRONMENT_NAME}/setup.bash"]
+
+[feature.commontasks.tasks]
+build = "colcon build --build-base build-$PIXI_ENVIRONMENT_NAME --install-base install-$PIXI_ENVIRONMENT_NAME"
+dance = {cmd = "ros2 run turtle_dancer dance", depends-on = ["build"]}
+brain = {cmd = "ros2 run turtle_brain brain", depends-on = ["build"]}
+sim = "ros2 run turtlesim turtlesim_node"
+teleop = "ros2 run turtlesim turtle_teleop_key"
+topics = "ros2 topic list"
+
+[feature.commondeps.dependencies]
+ros-dev-tools = ">=1.0.2,<2"
+
+[dependencies]
+pytorch = ">=2.12.0,<3"
+
+[environments.kilted.dependencies]
+ros-kilted-ros-base = ">=0.12.0,<0.13"
+ros-kilted-turtlesim = ">=1.9.4,<2"
+
+[environments.lyrical.dependencies]
+ros-lyrical-ros-base = ">=0.13.0,<0.14"
+ros-lyrical-turtlesim = ">=1.10.9,<2"
+

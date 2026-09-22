@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/.pixi/envs/lyrical/bin/cmake",
+			"cpack" : "/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/.pixi/envs/lyrical/bin/cpack",
+			"ctest" : "/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/.pixi/envs/lyrical/bin/ctest",
+			"root" : "/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/.pixi/envs/lyrical/share/cmake-4.4"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 4,
+			"minor" : 4,
+			"patch" : 3,
+			"string" : "4.4.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-f87dfdeffaa63c5fe67e.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 11
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-f87dfdeffaa63c5fe67e.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 11
+				}
+			}
+		}
+	}
+}

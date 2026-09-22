@@ -1,0 +1,4 @@
+source;share/turtle_dancer/local_setup.bash
+source;share/turtle_dancer/local_setup.dsv
+source;share/turtle_dancer/local_setup.sh
+source;share/turtle_dancer/local_setup.zsh

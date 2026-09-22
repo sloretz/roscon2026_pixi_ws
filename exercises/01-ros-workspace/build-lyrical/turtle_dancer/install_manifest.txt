@@ -1,0 +1,17 @@
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/lib/turtle_dancer/dance
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/ament_index/resource_index/package_run_dependencies/turtle_dancer
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/ament_index/resource_index/parent_prefix_path/turtle_dancer
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/environment/ament_prefix_path.sh
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/environment/ament_prefix_path.dsv
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/environment/path.sh
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/environment/path.dsv
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/local_setup.bash
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/local_setup.fish
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/local_setup.sh
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/local_setup.zsh
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/local_setup.dsv
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/package.dsv
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/ament_index/resource_index/packages/turtle_dancer
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/cmake/turtle_dancerConfig.cmake
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/cmake/turtle_dancerConfig-version.cmake
+/usr/local/google/home/sloretz/pixi_ws/roscon-2026-declarative-ros-workspaces-with-pixi/exercises/01-ros-workspace/install-lyrical/turtle_dancer/share/turtle_dancer/package.xml

@@ -19,7 +19,7 @@ public:
   : Node("dancer")
   {
     linear_speed_ = declare_parameter("linear_speed", 1.0);
-    angular_speed_ = declare_parameter("angular_speed", 0.8);
+    angular_speed_ = declare_parameter("angular_speed", 3.0);
 
     publisher_ = create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
     timer_ = create_wall_timer(100ms, [this]() {this->step();});
