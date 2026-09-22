@@ -14,4 +14,4 @@ jobs:
         with:
           pixi-version: v0.81.0
           locked: true
-    - run: pixi run test
+      - run: pixi run test
